@@ -6,7 +6,7 @@ Authors@R:
 Description: This puts all the data sets used in Business Data Science by Matt Taddy into a single package. I use this for a student seminar where we go through the book and I wanted all the data sets to be easily accessible for the students.
 License: `use_mit_license()`
 Encoding: UTF-8
-LazyData: true
+LazyData: false
 LazyDataCompression: bzip2
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
