@@ -7,5 +7,7 @@ Description: This puts all the data sets used in Business Data Science by Matt T
 License: `use_mit_license()`
 Encoding: UTF-8
 LazyData: true
+Imports:
+    Matrix
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3

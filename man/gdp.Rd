@@ -5,7 +5,7 @@
 \alias{gdp}
 \title{GDP and imports data by country in 2022.}
 \format{
-A data frame of 174 countries with GDP and import data.
+A tibble with 174 rows and 4 columns:
 \describe{
 \item{country}{Country name.}
 \item{year}{Year.}
