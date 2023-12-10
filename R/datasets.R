@@ -25,6 +25,18 @@
 #' @source Wikipedia.
 "gdp"
 
+#' Dow Jones Industrial Average data
+#'
+#' Daily data on the Dow Jones Industrial Average, which is a stock market index of 30 U.S. prominent companies.
+#'
+#' @format A tibble with 1,979 rows and 2 columns:
+#' \describe{
+#' \item{dja}{Index value.}
+#' \item{day}{Ordered day of observation.}
+#' }
+#' @source Business Data Science by Matt Taddy.
+"dja"
+
 #' Orange juice sales data collected in the 1990s from Dominick's, which was a Chicago-area chain store.
 #'
 #' @format A tibble with 28,947 rows and 4 columns:
@@ -36,4 +48,40 @@
 #' }
 #' @source Kilts Center at the University of Chicago's Booth School of Business.
 "oj"
+
+#' Airline passenger data
+#'
+#' Daily data on the number of airline passengers.
+#'
+#' @format A tibble with 1,979 rows and 2 columns:
+#' \describe{
+#' \item{year}{Two digit year.}
+#' \item{month}{Numerical month.}
+#' \item{passengers}{Number of passengers.}
+#' \item{time}{Ordered of observations.}
+#' }
+#' @source Business Data Science by Matt Taddy.
+"airline"
+
+#' Data from a guy named George's inbox.
+#'
+#' Spam data created from emails in George's inbox.
+#' Each email has been classified as spam or not and indicator variables (or one-hot incodings)
+#' have been created for the most common words in the emails. Commonly used data to practice
+#' creating a spam filter.
+#'
+#' @format A tibble with 4,601 rows and 58 columns:
+#' \describe{
+#' \item{spam}{Indicator variable for whether the email was classified as spam or not.}
+#' \item{word_}{Indicator variable for the presence of the word _.}
+#' }
+#' @source Business Data Science by Matt Taddy.
+"email"
+
+
+
+
+
+
+
 
