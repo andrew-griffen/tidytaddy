@@ -3,7 +3,7 @@
 \docType{data}
 \name{email}
 \alias{email}
-\title{Data from a guy named George's inbox.}
+\title{Data from George's inbox.}
 \format{
 A tibble with 4,601 rows and 58 columns:
 \describe{
@@ -18,8 +18,8 @@ Business Data Science by Matt Taddy.
 email
 }
 \description{
-Spam data created from emails in George's inbox.
-Each email has been classified as spam or not and indicator variables (or one-hot incodings)
+Data set created from emails in a guy named George's inbox.
+Each email has been classified as spam or not and indicator variables (or one-hot encodings)
 have been created for the most common words in the emails. Commonly used data to practice
 creating a spam filter.
 }
