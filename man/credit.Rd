@@ -7,15 +7,15 @@
 \format{
 A tibble with 1,000 rows and 9 columns:
 \describe{
-\item{default}{Binary variable indicating whether the client defaulted or not}
-\item{duration}{Duration of loan in months}
-\item{amount}{Loan amount}
-\item{installment}{Number of installments}
-\item{age}{Client age in years}
-\item{history}{Credit history}
-\item{purpose}{Loan purpose}
-\item{foreign}{German or foreign}
-\item{rent}{Boolean for renter or not}
+\item{default}{Binary variable indicating whether the client defaulted or not.}
+\item{duration}{Duration of loan in months.}
+\item{amount}{Loan amount.}
+\item{installment}{Number of installments.}
+\item{age}{Client age in years.}
+\item{history}{Credit history.}
+\item{purpose}{Loan purpose.}
+\item{foreign}{German or foreign.}
+\item{rent}{Boolean for renter or not.}
 }
 }
 \source{

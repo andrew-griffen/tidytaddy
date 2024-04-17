@@ -6,18 +6,20 @@
 \title{Abortion and crime data.}
 \format{
 A tibble with 1,734 rows and 17 columns:
-\item{murder}{De-trended log murder rate}
-\item{violent}{De-trended log violent crime rate}
-\item{property}{De-trended log property crime rate}
-\item{state}{State}
-\item{prisoners}{log of lagged prisoners per capita}
-\item{police}{log of lagged police per capita}
-\item{unemployment}{the unemployment rate}
-\item{income}{per-capita income}
-\item{poverty}{the poverty rate
-\item{AFDC}{AFDC generosity at year t-15}
-\item{gun}{Indicator for concealed weapons law}
-\item{beer}{Beer consumption per capita}
+\describe{
+\item{murder}{De-trended log murder rate.}
+\item{violent}{De-trended log violent crime rate.}
+\item{property}{De-trended log property crime rate.}
+\item{state}{State.}
+\item{prisoners}{log of lagged prisoners per capita.}
+\item{police}{log of lagged police per capita.}
+\item{unemployment}{the unemployment rate.}
+\item{income}{per-capita income.}
+\item{poverty}{the poverty rate.}
+\item{AFDC}{AFDC generosity at year t-15.}
+\item{gun}{Indicator for concealed weapons law.}
+\item{beer}{Beer consumption per capita.}
+}
 }
 \source{
 Donohue and Levitt (2001).

@@ -31,8 +31,8 @@
 #'
 #' @format A tibble with 1,979 rows and 2 columns:
 #' \describe{
-#' \item{dja}{Index value.}
-#' \item{day}{Ordered day of observation.}
+#'      \item{dja}{Index value.}
+#'      \item{day}{Ordered day of observation.}
 #' }
 #' @source Business Data Science by Matt Taddy.
 "dja"
