@@ -78,7 +78,6 @@
 #' @source Business Data Science by Matt Taddy.
 "email"
 
-
 #' German credit default data from Professor Hoffman.
 #'
 #' Data set with default and client characteristics.
@@ -86,15 +85,15 @@
 #'
 #' @format A tibble with 1,000 rows and 9 columns:
 #' \describe{
-#' \item{default}{Binary variable indicating whether the client defaulted or not}
-#' \item{duration}{Duration of loan in months}
-#' \item{amount}{Loan amount}
-#' \item{installment}{Number of installments}
-#' \item{age}{Client age in years}
-#' \item{history}{Credit history}
-#' \item{purpose}{Loan purpose}
-#' \item{foreign}{German or foreign}
-#' \item{rent}{Boolean for renter or not}
+#' \item{default}{Binary variable indicating whether the client defaulted or not.}
+#' \item{duration}{Duration of loan in months.}
+#' \item{amount}{Loan amount.}
+#' \item{installment}{Number of installments.}
+#' \item{age}{Client age in years.}
+#' \item{history}{Credit history.}
+#' \item{purpose}{Loan purpose.}
+#' \item{foreign}{German or foreign.}
+#' \item{rent}{Boolean for renter or not.}
 #' }
 #' @source Business Data Science by Matt Taddy.
 "credit"
@@ -104,18 +103,20 @@
 #' Data set from "The Impact Of Legalized Abortion On Crime" by John J. Donohue III And Steven D. Levitt.
 #'
 #' @format A tibble with 1,734 rows and 17 columns:
-#' \item{murder}{De-trended log murder rate}
-#' \item{violent}{De-trended log violent crime rate}
-#' \item{property}{De-trended log property crime rate}
-#' \item{state}{State}
-#' \item{prisoners}{log of lagged prisoners per capita}
-#' \item{police}{log of lagged police per capita}
-#' \item{unemployment}{the unemployment rate}
-#' \item{income}{per-capita income}
-#' \item{poverty}{the poverty rate
-#' \item{AFDC}{AFDC generosity at year t-15}
-#' \item{gun}{Indicator for concealed weapons law}
-#' \item{beer}{Beer consumption per capita}
+#' \describe{
+#' \item{murder}{De-trended log murder rate.}
+#' \item{violent}{De-trended log violent crime rate.}
+#' \item{property}{De-trended log property crime rate.}
+#' \item{state}{State.}
+#' \item{prisoners}{log of lagged prisoners per capita.}
+#' \item{police}{log of lagged police per capita.}
+#' \item{unemployment}{the unemployment rate.}
+#' \item{income}{per-capita income.}
+#' \item{poverty}{the poverty rate.}
+#' \item{AFDC}{AFDC generosity at year t-15.}
+#' \item{gun}{Indicator for concealed weapons law.}
+#' \item{beer}{Beer consumption per capita.}
+#' }
 #' @source Donohue and Levitt (2001).
 "abortion"
 
