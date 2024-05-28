@@ -73,7 +73,7 @@
 #' @format A tibble with 4,601 rows and 58 columns:
 #' \describe{
 #' \item{spam}{Indicator variable for whether the email was classified as spam or not.}
-#' \item{word_}{Indicator variable for the presence of the word _.}
+#' \item{word_}{Indicator variable for the presence of the word_.}
 #' }
 #' @source Business Data Science by Matt Taddy.
 "email"
@@ -120,8 +120,40 @@
 #' @source Donohue and Levitt (2001).
 "abortion"
 
+#' Stock data
+#'
+#' Monthly returns 
+#'
+#' @format A tibble with 42,355 rows and 3 columns:
+#' \describe{
+#' \item{ticker}{Stock ticker.}
+#' \item{month}{Month.}
+#' \item{r}{Monthly return.}
+#' }
+#' @source Business Data Science by Matt Taddy.
+"stocks"
 
+#' S&P500 monthly returns
+#'
+#' @format A tibble with 84 rows and 2 columns:
+#' \describe{
+#' \item{month}{Month.}
+#' \item{r_sp}{Monthly return.}
+#' }
+#' @source Business Data Science by Matt Taddy.
+"sp"
 
+#' Data on pickup trucks.
+#'
+#' @format A tibble with 46 rows and 4 columns:
+#' \describe{
+#' \item{year}{Vintage.}
+#' \item{miles}{Odometer miles.}
+#' \item{price}{Price.}
+#' \item{make}{Make.}
+#' }
+#' @source Business Data Science by Matt Taddy.
+"trucks"
 
 
 

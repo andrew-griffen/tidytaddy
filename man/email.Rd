@@ -8,7 +8,7 @@
 A tibble with 4,601 rows and 58 columns:
 \describe{
 \item{spam}{Indicator variable for whether the email was classified as spam or not.}
-\item{word_}{Indicator variable for the presence of the word _.}
+\item{word_}{Indicator variable for the presence of the word_.}
 }
 }
 \source{
