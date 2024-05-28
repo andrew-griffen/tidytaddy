@@ -27,7 +27,7 @@
 
 #' Dow Jones Industrial Average data
 #'
-#' Daily data on the Dow Jones Industrial Average, which is a stock market index of 30 U.S. prominent companies.
+#' Daily data on the Dow Jones Industrial Average, which is a stock market index of 30 prominent U.S. companies.
 #'
 #' @format A tibble with 1,979 rows and 2 columns:
 #' \describe{
@@ -155,5 +155,14 @@
 #' @source Business Data Science by Matt Taddy.
 "trucks"
 
+#' Quality-control data from a semiconductor manufacturing process.
+#'
+#' @format A tibble with 1,477 rows and 201 columns:
+#' \describe{
+#' \item{FAIL}{Indicator variable for whether the observed chip failed or not.}
+#' \item{SIG_}{Measurement from diagnostic sensor _ in the production process.}
+#' }
+#' @source Business Data Science by Matt Taddy.
+"SC"
 
 

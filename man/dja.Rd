@@ -18,6 +18,6 @@ Business Data Science by Matt Taddy.
 dja
 }
 \description{
-Daily data on the Dow Jones Industrial Average, which is a stock market index of 30 U.S. prominent companies.
+Daily data on the Dow Jones Industrial Average, which is a stock market index of 30 prominent U.S. companies.
 }
 \keyword{datasets}
