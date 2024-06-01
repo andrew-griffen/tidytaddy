@@ -107,13 +107,18 @@
 #' \item{murder}{De-trended log murder rate.}
 #' \item{violent}{De-trended log violent crime rate.}
 #' \item{property}{De-trended log property crime rate.}
+#' \item{ear}{Effective abortion rate.}
 #' \item{state}{State.}
-#' \item{prisoners}{log of lagged prisoners per capita.}
-#' \item{police}{log of lagged police per capita.}
-#' \item{unemployment}{the unemployment rate.}
-#' \item{income}{per-capita income.}
-#' \item{poverty}{the poverty rate.}
-#' \item{AFDC}{AFDC generosity at year t-15.}
+#' \item{fips}{Federal Information Processing Series (FIPS) code.}
+#' \item{abbr}{State abbreviation.}
+#' \item{year}{Year.}
+#' \item{prison}{Lagged prisoners per capita.}
+#' \item{police}{Lagged police per capita.}
+#' \item{population}{State population.}
+#' \item{unemp}{Unemployment rate.}
+#' \item{income}{Income per capita.}
+#' \item{poverty}{Poverty rate.}
+#' \item{afdc}{AFDC (welfare) generosity at year t - 15.}
 #' \item{gun}{Indicator for concealed weapons law.}
 #' \item{beer}{Beer consumption per capita.}
 #' }
