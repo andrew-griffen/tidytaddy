@@ -37,15 +37,15 @@ tidy_lasso <- function(lasso){
 #' @param lasso a model of class gamlr
 #' @keywords lasso tidy gamlr
 #' @export
-#' @importFrom tibble as_tibble
+#' @importFrom tibble tibble
 #' @importFrom dplyr mutate everything select
 #' @importFrom tidyr pivot_longer
 tidy_lasso.gamlr <- function(lasso){
   lasso_df = as.data.frame(t(as.matrix(lasso$beta)))
-  lasso_df <- lasso_df |> as_tibble()
+  lasso_df <- lasso_df |> tibble()
   lasso_df <- lasso_df |> mutate(lambda = lasso$lambda) 
   lasso_df <- lasso_df |> select(lambda, everything())
-  lasso_df <- pivot_longer(-lambda, names_to="variable", values_to="estimate") 
+  lasso_df <- lasso_df |> pivot_longer(-lambda, names_to="variable", values_to="estimate") 
   lasso_df <- lasso_df |> arrange(variable, -lambda)
   return(lasso_df)
 }
@@ -56,18 +56,18 @@ tidy_lasso.gamlr <- function(lasso){
 #' @param lasso a model of class cv.gamlr
 #' @keywords lasso tidy cv.gamlr
 #' @export
-#' @importFrom tibble as_tibble
+#' @importFrom tibble tibble
 #' @importFrom dplyr mutate everything select
 #' @importFrom tidyr pivot_longer
 tidy_lasso.cv.gamlr <- function(lasso){
   lasso_df = as.data.frame(t(as.matrix(lasso$gamlr$beta)))
-  lasso_df <- lasso_df |> as_tibble()
+  lasso_df <- lasso_df |> tibble()
   lasso_df <- lasso_df |> mutate(lambda = lasso$gamlr$lambda) |> left(lambda)
   lasso_df <- lasso_df |> mutate(cv_mean = lasso$cvm)
   lasso_df <- lasso_df |> mutate(cv_se = lasso$cvs)
   lasso_df <- lasso_df |> mutate(lambda_min = 1L*(lasso$gamlr$lambda==lasso$lambda.min))
   lasso_df <- lasso_df |> mutate(lambda_1se = 1L*(lasso$gamlr$lambda==lasso$lambda.1se))
-  lasso_df <- lasso_df |> select(lambda,lambda_min,lambda_1se,cv_mean,cv_se,everything())
+  lasso_df <- lasso_df |> select(lambda, lambda_min, lambda_1se, cv_mean, cv_se, everything())
   return(lasso_df)
 }
 
