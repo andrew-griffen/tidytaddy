@@ -42,7 +42,7 @@ tidy_lasso <- function(lasso){
 #' @importFrom tidyr pivot_longer
 tidy_lasso.gamlr <- function(lasso){
   lasso_df = as.data.frame(t(as.matrix(lasso$beta)))
-  lasso_df <- as_tibble()
+  lasso_df <- lasso_df |> as_tibble()
   lasso_df <- lasso_df |> mutate(lambda = lasso$lambda) 
   lasso_df <- lasso_df |> select(lambda, everything())
   lasso_df <- pivot_longer(-lambda, names_to="variable", values_to="estimate") 
