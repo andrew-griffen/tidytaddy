@@ -170,4 +170,14 @@
 #' @source Business Data Science by Matt Taddy.
 "SC"
 
+#' Octane and near-infrared (NIR) spectrometry measurements
+#'
+#' @format A tibble with 60 rows and 402 columns:
+#' \describe{
+#' \item{octane}{Octane rating.}
+#' \item{nir_}{Near-infrared (NIR) spectrometry measures.}
+#' }
+#' @source Business Data Science by Matt Taddy.
+"gas"
+
 
